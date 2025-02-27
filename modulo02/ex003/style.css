@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right,#022840,#025373);
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+h1,h2 {
+    font-family: "Work Sans", serif;;
+    margin: auto;
+}
+main { 
+        background-color:white;
+        border-radius: 10px;
+        box-shadow: 4px 4px 15px #011c2c9c ;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+}
+p  {
+        font: normal normal 1em 'Courier New',monospace;
+        text-align: justify;
+}

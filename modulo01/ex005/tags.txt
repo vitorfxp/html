@@ -1,0 +1,4 @@
+h1 - titulo 
+p - paragrafo
+hr - linha horizontal
+br - quebra de linha e texto

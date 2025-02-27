@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'oldlondon' ;
+    src: url(fontes/Olondon_.otf) format(opentype), url(fontes/OldLondon.ttf) format(truetype) ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'oldlondon';
+    text-align: center;
+}
+body {
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+h2 {
+    text-align: right;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
