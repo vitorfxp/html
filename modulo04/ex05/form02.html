@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <h1>Teste de formuário com senha</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário: <input type="text" name="usu" id="iusu" required minlength="6" maxlength="15" placeholder="nome de Usuário"></label>
+        </p>
+        <p>
+            <label for="ipass">Senha: <input type="password" name="sen" id="sen" required minlength="8" maxlength="15" placeholder="senha" autocomplete="current-password"></label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+     </form>
+</body>
+</html>
