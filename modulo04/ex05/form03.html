@@ -7,24 +7,35 @@
 </head>
 <body>
     <form action="cadastro.js" method="post" autocomplete="on">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
-        </p>
-        <p><label for="imed">Média</label>
-        <input type= "number" name="media" id="imed" min="0" max="10" placeholder="0 a 10" step="0.5"> </p>
-        <p>
-            <label for="imes">Periodo Letivo</label>
-            <input type="month" name="mes" id="imes" value="2025-03">
-        </p>
-        <p>
-            <label for="idia">Dia da prova</label>
-            <input type="date" name="dia" id="idia">
-        </p>
-        <p>
-            <input type="submit" value="enviar">
-            <input type="reset" value="limpar">
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p><label for="imed">Média</label>
+            <input type= "number" name="media" id="imed" min="0" max="10" placeholder="0 a 10" step="0.5"> </p>
+            <p>
+                <label for="imes">Periodo Letivo</label>
+                <input type="month" name="mes" id="imes" value="2025-03">
+            </p>
+            <p>
+                <label for="idia">Dia da prova</label>
+                <input type="date" name="dia" id="idia">
+            </p>
+            <p>
+                <label for="imail">email: </label>
+                <input type="email" name="mail" id="imail">
+            </p>
+            <p>
+                <label for="itel">telefone: </label>
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)[0-9][0-9]$">.
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
