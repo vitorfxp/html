@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <p>
+            <label for="inum">Número 1:</label>
+            <input type="number" name="num" id="inum" required oninput="isom.innerHTML = Number(inum.value)+ Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">Número 2:</label>
+            <input type="number" name="num2" id="inum2" required oninput="isom.innerHTML = Number(inum.value)+ Number(inum2.value)">>
+        </p>
+        <p>
+            <label for="isom">Soma:</label>
+            <output name="som" id="isom">0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
